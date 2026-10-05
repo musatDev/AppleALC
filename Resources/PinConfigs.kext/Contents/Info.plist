@@ -11130,6 +11130,24 @@
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>CodecID</key>
+					<integer>283904768</integer>
+					<key>CodecName</key>
+					<string>Custom ALCS1200A MSI MAG B460 TORPEDO MS-7C81 layout81 R3 front mic +30dB</string>
+					<key>ConfigData</key>
+					<data>ARcc8AEXHQABFx4AARcfQAFHHAABRx1QAUceEQFHHwEBVxwiAVcdEAFXHgEBVx8BAWccIQFnHRABZx4BAWcfAQF3HPABdx0AAXceAAF3H0ABhxxAAYcdEAGHHqEBhx+RAZccUAGXHZABlx6BAZcfAgGnHGABpx0QAacegQGnHwEBtxwQAbcdQAG3HiEBtx8CAeccMAHnHREB5x5FAecfAQFHDAIBtwwCAYcHJAGXByQBpwcgAZNwAw==</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>81</integer>
+					<key>WakeConfigData</key>
+					<data>AUcMAgG3DAIBhwckAZcHJAGnByABk3AD</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
 			</array>
 			<key>IOClass</key>
 			<string>AppleALC</string>
