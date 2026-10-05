@@ -1,3 +1,15 @@
+> **Note: layout-id=81 is specific to my own motherboard: MSI MAG B460 TORPEDO (MS-7C81).**
+
+## Custom AppleALC — Realtek ALCS1200A — Layout 81
+
+**[Download AppleALC.kext R3 ZIP — Layout 81, +30 dB front microphone boost](https://github.com/musatDev/MSI-MAG-B460-TORPEDO-ALCS1200A-Layout81/raw/refs/heads/main/Downloads/AppleALC-Layout81-R3.zip)**
+
+[Installation and changes](https://github.com/musatDev/MSI-MAG-B460-TORPEDO-ALCS1200A-Layout81#readme) · [SHA-256 checksum](https://github.com/musatDev/MSI-MAG-B460-TORPEDO-ALCS1200A-Layout81/blob/main/Downloads/SHA256SUMS.txt) · [Custom source branch](https://github.com/musatDev/AppleALC/tree/msi-b460-layout81)
+
+The custom layout source is on the **msi-b460-layout81** branch. The ZIP above contains the prebuilt custom kext; GitHub's **Code > Download ZIP** downloads source code.
+
+---
+
 AppleALC
 ========
 
