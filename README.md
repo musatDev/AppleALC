@@ -8,6 +8,18 @@
 
 The custom layout source is on the **msi-b460-layout81** branch. The ZIP above contains the prebuilt custom kext; GitHub's **Code > Download ZIP** downloads source code.
 
+## Custom changes
+
+- Added layout **81**, based on layout31, for the **Realtek ALCS1200A** codec on **MSI MAG B460 TORPEDO (MS-7C81)**.
+- Added `layout81.xml` and `Platforms81.xml`, and registered the layout in the codec and PinConfigs files.
+- Changed the front microphone path from `9 → 34 → 25` to `8 → 35 → 25`.
+- Changed the rear line-in path from `8 → 35 → 26` to `9 → 34 → 26`.
+- Kept the rear microphone path (`9 → 34 → 24`), layout31 output paths, and layout DSP settings.
+- Adjusted pin defaults, microphone bias, and output EAPD settings for this board.
+- Set front microphone boost to **+30 dB** (`01937003`) during both initialization and wake.
+
+Paths use decimal AppleHDA NodeIDs. These source changes are on the **msi-b460-layout81** branch and are included in the downloadable R3 kext.
+
 ---
 
 AppleALC
