@@ -118,7 +118,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Custom MSI MAG B460 TORPEDO MS-7C81 / ALCS1200A (1462:EC81), codec-dump routing</string>
+				<string>ALCS1200A for MSI MAG B460 TORPEDO by musatDev</string>
 				<key>Id</key>
 				<integer>81</integer>
 				<key>Path</key>
@@ -233,7 +233,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Custom MSI MAG B460 TORPEDO MS-7C81 / ALCS1200A (1462:EC81), codec-dump routing</string>
+				<string>ALCS1200A for MSI MAG B460 TORPEDO by musatDev</string>
 				<key>Id</key>
 				<integer>81</integer>
 				<key>Path</key>
