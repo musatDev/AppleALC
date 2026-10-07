@@ -1,27 +1,3 @@
-> **Note: layout-id=81 is specific to my own motherboard: MSI MAG B460 TORPEDO (MS-7C81).**
-
-## Custom AppleALC — Realtek ALCS1200A — Layout 81
-
-**[Download AppleALC.kext R3 ZIP — Layout 81, +30 dB front microphone boost](https://github.com/musatDev/MSI-MAG-B460-TORPEDO-ALCS1200A-Layout81/raw/refs/heads/main/Downloads/AppleALC-Layout81-R3.zip)**
-
-[Installation and changes](https://github.com/musatDev/MSI-MAG-B460-TORPEDO-ALCS1200A-Layout81#readme) · [SHA-256 checksum](https://github.com/musatDev/MSI-MAG-B460-TORPEDO-ALCS1200A-Layout81/blob/main/Downloads/SHA256SUMS.txt) · [Custom source branch](https://github.com/musatDev/AppleALC/tree/msi-b460-layout81)
-
-The custom layout source is on the **msi-b460-layout81** branch. The ZIP above contains the prebuilt custom kext; GitHub's **Code > Download ZIP** downloads source code.
-
-## Custom changes
-
-- Added layout **81**, based on layout31, for the **Realtek ALCS1200A** codec on **MSI MAG B460 TORPEDO (MS-7C81)**.
-- Added `layout81.xml` and `Platforms81.xml`, and registered the layout in the codec and PinConfigs files.
-- Changed the front microphone path from `9 → 34 → 25` to `8 → 35 → 25`.
-- Changed the rear line-in path from `8 → 35 → 26` to `9 → 34 → 26`.
-- Kept the rear microphone path (`9 → 34 → 24`), layout31 output paths, and layout DSP settings.
-- Adjusted pin defaults, microphone bias, and output EAPD settings for this board.
-- Set front microphone boost to **+30 dB** (`01937003`) during both initialization and wake.
-
-Paths use decimal AppleHDA NodeIDs. These source changes are on the **msi-b460-layout81** branch and are included in the downloadable R3 kext.
-
----
-
 AppleALC
 ========
 
@@ -63,7 +39,7 @@ The prebuilt binaries are available on [releases](https://github.com/acidanthera
 To support more audio codecs in the binary packages you are asked to submit your configurations. Please read the [wiki](https://github.com/acidanthera/AppleALC/wiki) for more details. For the contributors with programming skills the headers are filled with AppleDOC comments.
 
 #### Support and discussion
-[InsanelyMac topic](http://www.insanelymac.com/forum/topic/311293-applealc-—-dynamic-applehda-patching/) in English  
+[InsanelyMac topic](http://www.insanelymac.com/forum/topic/311293/applealc-—-dynamic-applehda-patching/) in English  
 [AppleLife topic](https://applelife.ru/threads/applealc-dinamicheskij-patching-applehda.1171672/) in Russian
 
 #### Donations
